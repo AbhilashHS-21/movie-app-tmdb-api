@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- custom js -->
+  <script src="./assets/js/global.js" defer></script>
+  <script src="./assets/js/index.js" type="module"></script>
+  <script src="./assets/js/sidebar.js" type="module"></script>
+
+  <title>It's ShowTime</title>
+  <meta name="title" content="MoviesWorld">
+  <meta name="description" content="MoviesWorld is a portfolio project">
+</head>
+
+<body>
+  <header class="header">
+    <a href="./" class="logo">
+      <img src="./assets/images/logo.png" width="140" height="32" alt="MoviesWorld Home">
+    </a>
+    <div class="search-box" search-box>
+      <div class="search-wrapper" search-wrapper>
+        <input type="text" name="search" aria-label="search movies" placeholder="search anything" class="search-field"
+          autocomplete="off" search-field>
+
+        <img src="./assets/images/search.png" width="24" height="24" alt="search" class="leading-icon">
+      </div>
+
+      <button class="search-btn" search-toggler>
+        <img src="./assets/images/close.png" width="24" height="24" alt="close search box">
+      </button>
+    </div>
+
+    <div class="search-btn" search-toggler menu-close>
+      <img src="./assets/images/search.png" width="24" height="24" alt="open search box">
+    </div>
+
+    <div class="menu-btn" menu-btn menu-toggler>
+      <img src="./assets/images/menu.png" width="24" height="24" alt="open menu" class="menu">
+      <img src="./assets/images/menu-close.png" width="24" height="24" alt="close" class="close">
+    </div>
+  </header>
+
+  <main>
+    <!-- Side bar -->
+    <nav class="sidebar" sidebar></nav>
+
+    <div class="overlay" overlay menu-toggler></div>
+
+    <article class="container" page-content>
+
+      <!-- MOVIE LIST -->
+    </article>
+  </main>
+</body>
+
+</html>
