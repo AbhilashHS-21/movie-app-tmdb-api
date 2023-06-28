@@ -18,7 +18,7 @@ fetchDataFromServer(
   function ({ results: movieList, total_pages }) {
     totalPages = total_pages;
 
-    document.title = `${genreName} Movies - MoviesWorld`;
+    document.title = `${genreName} Movies - It's ShowTime`;
 
     const movieListElem = document.createElement("section");
     movieListElem.classList.add("movie-list", "genre-list");

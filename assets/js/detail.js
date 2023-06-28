@@ -65,7 +65,7 @@ fetchDataFromServer(
       videos: { results: videos },
     } = movie;
 
-    document.title - `${title}-MoviesWorld`;
+    document.title = `${title} - It's ShowTime`;
 
     const movieDetail = document.createElement("div");
     movieDetail.classList.add("movie-detail");
